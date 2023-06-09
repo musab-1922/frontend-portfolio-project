@@ -24,15 +24,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app"
-    ],
-    "overrides": [
-      {
-        "files": ["**/__tests__/**/*.js", "**/?(*.)+(spec|test).js"],
-        "env": {
-          "jest": true
-        }
-      }
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {
