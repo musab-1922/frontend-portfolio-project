@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useAuthContext } from "../hooks/useAuthContext";
-
+import {useLocation, useNavigate} from "react-router-dom";
 
 
 const CreateProfile = () => {

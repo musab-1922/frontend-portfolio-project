@@ -54,8 +54,6 @@ This application is a simple web API that allows users to:
 
 
 
-
-
 ### License
 
 This project is under ISC License
